@@ -13,7 +13,7 @@ import lombok.ToString;
 @Setter
 @ToString
 @AllArgsConstructor
-public class PojoData {
+public class PojoData<T extends Pojo> {
     /**
      * Operation to perform.
      */
@@ -22,5 +22,5 @@ public class PojoData {
     /**
      * POJO data.
      */
-    private Pojo data;
+    private T data;
 }
