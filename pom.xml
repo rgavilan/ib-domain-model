@@ -11,8 +11,8 @@
 	<groupId>es.um.asio</groupId>
 	<artifactId>domain-model</artifactId>
 	<version>1.0-SNAPSHOT</version>
-	<name>Archetype - Java Batch</name>
-	<description>Archetype - Java Batch</description>
+	<name>UM - ASIO - domain-model</name>
+	<description>UM - ASIO - domain-model</description>
 
 	<scm>
 		<url>https://git.izertis.com/universidaddemurcia/semantmurc/domain-model</url>
