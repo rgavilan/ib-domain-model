@@ -1,5 +1,6 @@
 package es.um.asio.domain;
 
+import es.um.asio.abstractions.domain.Operation;
 import es.um.asio.domain.pojo.Pojo;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
