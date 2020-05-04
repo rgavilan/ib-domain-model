@@ -1,9 +1,11 @@
 package es.um.asio.domain;
 
+import org.json.JSONObject;
+
 import es.um.asio.abstractions.domain.Operation;
-import es.um.asio.domain.pojo.Pojo;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
@@ -14,7 +16,8 @@ import lombok.ToString;
 @Setter
 @ToString
 @AllArgsConstructor
-public class PojoData<T extends Pojo> {
+@NoArgsConstructor
+public class PojoData {
     /**
      * Operation to perform.
      */
@@ -23,5 +26,5 @@ public class PojoData<T extends Pojo> {
     /**
      * POJO data.
      */
-    private T data;
+    private Object data;
 }
