@@ -1,7 +1,5 @@
 package es.um.asio.domain;
 
-import org.json.JSONObject;
-
 import es.um.asio.abstractions.domain.Operation;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
