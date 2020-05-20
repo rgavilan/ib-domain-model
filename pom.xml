@@ -15,7 +15,7 @@
 	<description>UM - ASIO - domain-model</description>
 
 	<scm>
-		<url>https://git.izertis.com/universidaddemurcia/semantmurc/domain-model</url>
+		<url>scm:git:https://github.com/HerculesCRUE/ib-domain-model.git</url>
 	</scm>
 	
 	<properties>
