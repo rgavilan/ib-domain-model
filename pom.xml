@@ -14,6 +14,7 @@
 	<version>1.0-SNAPSHOT</version>
 	<name>UM - ASIO - domain-model</name>
 	<description>UM - ASIO - domain-model</description>
+	<url>https://www.um.es/web/hercules/</url>
 
 	<scm>
 		<url>scm:git:https://github.com/HerculesCRUE/ib-domain-model.git</url>
